@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { AppProvider, useApp } from '@/components/context/AppContext';
 import TopBar from '@/components/dashboard/TopBar';
 import BottomNav from '@/components/dashboard/BottomNav';
-import { base44 } from '@/api/base44Client';
+import { base44 } from '@/api/api';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 
 // Mock available vouchers

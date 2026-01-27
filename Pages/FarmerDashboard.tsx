@@ -16,7 +16,7 @@ import TopBar from '@/components/dashboard/TopBar';
 import BottomNav from '@/components/dashboard/BottomNav';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
-import { base44 } from '@/api/base44Client';
+import { base44 } from '@/api/api';
 import { MapContainer, Marker, Popup, TileLayer, WMSTileLayer, useMap, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';

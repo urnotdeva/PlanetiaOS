@@ -9,7 +9,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { Switch } from '@/components/ui/switch';
 import { useApp } from '../context/AppContext';
-import { base44 } from '@/api/base44Client';
+import { base44 } from '@/api/api';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 

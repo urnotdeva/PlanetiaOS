@@ -7,7 +7,7 @@ import { Progress } from '@/components/ui/progress';
 import { AppProvider, useApp } from '@/components/context/AppContext';
 import TopBar from '@/components/dashboard/TopBar';
 import BottomNav from '@/components/dashboard/BottomNav';
-import { base44 } from '@/api/base44Client';
+import { base44 } from '@/api/api';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';

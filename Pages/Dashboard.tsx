@@ -9,7 +9,7 @@ import EarthProgress from '@/components/dashboard/EarthProgress';
 import QuickActions from '@/components/dashboard/QuickActions';
 import AboutUsCard from '@/components/dashboard/AboutUsCard';
 import UserHistory from '@/components/dashboard/UserHistory';
-import { base44 } from '@/api/base44Client';
+import { base44 } from '@/api/api';
 import { useQuery } from '@tanstack/react-query';
 
 function DashboardContent() {
