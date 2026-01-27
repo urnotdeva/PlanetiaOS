@@ -1,0 +1,53 @@
+{
+  "name": "TrashReport",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string",
+      "description": "Email of the user who submitted"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "URL of uploaded trash image"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number"
+        },
+        "lng": {
+          "type": "number"
+        },
+        "city": {
+          "type": "string"
+        }
+      }
+    },
+    "items_count": {
+      "type": "number",
+      "description": "Number of items detected"
+    },
+    "points_earned": {
+      "type": "number",
+      "description": "Points awarded for this report"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ],
+      "default": "pending"
+    },
+    "ai_analysis": {
+      "type": "string",
+      "description": "AI analysis result"
+    }
+  },
+  "required": [
+    "user_email",
+    "image_url"
+  ]
+}

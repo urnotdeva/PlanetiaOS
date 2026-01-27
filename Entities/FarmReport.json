@@ -1,0 +1,69 @@
+{
+  "name": "FarmReport",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number"
+        },
+        "lng": {
+          "type": "number"
+        },
+        "farm_name": {
+          "type": "string"
+        },
+        "emirate": {
+          "type": "string"
+        }
+      }
+    },
+    "crop_type": {
+      "type": "string"
+    },
+    "ndvi_score": {
+      "type": "number",
+      "description": "Vegetation index 0-1"
+    },
+    "water_efficiency": {
+      "type": "number",
+      "description": "Percentage 0-100"
+    },
+    "risks_detected": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sandstorm_risk": {
+      "type": "string",
+      "enum": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ],
+      "default": "none"
+    },
+    "date_analyzed": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": [
+    "user_email"
+  ]
+}

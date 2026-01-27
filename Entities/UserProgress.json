@@ -1,0 +1,67 @@
+{
+  "name": "UserProgress",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "total_points": {
+      "type": "number",
+      "default": 0
+    },
+    "trash_reports_count": {
+      "type": "number",
+      "default": 0
+    },
+    "flood_reports_count": {
+      "type": "number",
+      "default": 0
+    },
+    "vouchers_earned": {
+      "type": "number",
+      "default": 0
+    },
+    "city": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "citizen",
+        "farmer"
+      ],
+      "default": "citizen"
+    },
+    "privacy_enabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "abuse_count": {
+      "type": "number",
+      "default": 0
+    },
+    "banned": {
+      "type": "boolean",
+      "default": false
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "en",
+        "ar"
+      ],
+      "default": "en"
+    },
+    "theme": {
+      "type": "string",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "default": "light"
+    }
+  },
+  "required": [
+    "user_email"
+  ]
+}
