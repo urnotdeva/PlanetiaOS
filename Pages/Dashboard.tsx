@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { AppProvider, useApp } from '@/components/context/AppContext';
-import WelcomePopup from '@/components/common/WelcomePopup';
-import CategorySelector from '@/components/common/CategorySelector';
-import TopBar from '@/components/dashboard/TopBar';
-import BottomNav from '@/components/dashboard/BottomNav';
-import EarthProgress from '@/components/dashboard/EarthProgress';
-import QuickActions from '@/components/dashboard/QuickActions';
-import AboutUsCard from '@/components/dashboard/AboutUsCard';
-import UserHistory from '@/components/dashboard/UserHistory';
+import { AppProvider, useApp } from '@/Components/context/AppContext';
+import WelcomePopup from '@/Components/common/WelcomePopup';
+import CategorySelector from '@/Components/common/CategorySelector';
+import TopBar from '@/Components/dashboard/TopBar';
+import BottomNav from '@/Components/dashboard/BottomNav';
+import EarthProgress from '@/Components/dashboard/EarthProgress';
+import QuickActions from '@/Components/dashboard/QuickActions';
+import AboutUsCard from '@/Components/dashboard/AboutUsCard';
+import UserHistory from '@/Components/dashboard/UserHistory';
 import { base44 } from '@/api/api';
 import { useQuery } from '@tanstack/react-query';
 

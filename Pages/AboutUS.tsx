@@ -4,11 +4,11 @@
  import { ArrowLeft, BarChart3, Building2, Droplets, Leaf, Recycle, ShieldAlert, Sprout, Users, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
-import { AppProvider, useApp } from '@/components/context/AppContext';
-import TopBar from '@/components/dashboard/TopBar';
-import BottomNav from '@/components/dashboard/BottomNav';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { AppProvider, useApp } from '@/Components/context/AppContext';
+import TopBar from '@/Components/dashboard/TopBar';
+import BottomNav from '@/Components/dashboard/BottomNav';
+import { Card, CardContent, CardHeader, CardTitle } from '@/Components/ui/card';
+import { Badge } from '@/Components/ui/badge';
 
 function AboutUsContent() {
   const { language, isRTL } = useApp();

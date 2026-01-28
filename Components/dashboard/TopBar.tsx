@@ -6,8 +6,8 @@ import {
   Settings, LogOut, Trash2, Lock, Mail, Home, RotateCcw
 } from 'lucide-react';
 
-import { Button } from '@/components/ui/button';
-import { Switch } from '@/components/ui/switch';
+import { Button } from '@/Components/ui/button';
+import { Switch } from '@/Components/ui/switch';
 import { useApp } from '../context/AppContext';
 import { base44 } from '@/api/api';
 import { Link } from 'react-router-dom';

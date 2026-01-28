@@ -1,12 +1,12 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import { TicketPercent, Scissors, Fuel, ShoppingCart, Coffee, Store, Gift } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
-import { AppProvider, useApp } from '@/components/context/AppContext';
-import TopBar from '@/components/dashboard/TopBar';
-import BottomNav from '@/components/dashboard/BottomNav';
+import { Card, CardContent, CardHeader, CardTitle } from '@/Components/ui/card';
+import { Badge } from '@/Components/ui/badge';
+import { Button } from '@/Components/ui/button';
+import { AppProvider, useApp } from '@/Components/context/AppContext';
+import TopBar from '@/Components/dashboard/TopBar';
+import BottomNav from '@/Components/dashboard/BottomNav';
 import { base44 } from '@/api/api';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 

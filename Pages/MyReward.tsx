@@ -1,12 +1,12 @@
 import React, { useMemo, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Award, Gift, Lock, TicketPercent, Trophy } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Switch } from '@/components/ui/switch';
-import { AppProvider, useApp } from '@/components/context/AppContext';
-import TopBar from '@/components/dashboard/TopBar';
-import BottomNav from '@/components/dashboard/BottomNav';
+import { Button } from '@/Components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/Components/ui/card';
+import { Switch } from '@/Components/ui/switch';
+import { AppProvider, useApp } from '@/Components/context/AppContext';
+import TopBar from '@/Components/dashboard/TopBar';
+import BottomNav from '@/Components/dashboard/BottomNav';
 import { base44 } from '@/api/api';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';

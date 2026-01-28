@@ -6,14 +6,14 @@ import {
   Upload, Check, Loader2
 } from 'lucide-react';
 
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Progress } from '@/components/ui/progress';
-import { Badge } from '@/components/ui/badge';
-import { AppProvider, useApp } from '@/components/context/AppContext';
-import TopBar from '@/components/dashboard/TopBar';
-import BottomNav from '@/components/dashboard/BottomNav';
+import { Button } from '@/Components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/Components/ui/card';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/Components/ui/tabs';
+import { Progress } from '@/Components/ui/progress';
+import { Badge } from '@/Components/ui/badge';
+import { AppProvider, useApp } from '@/Components/context/AppContext';
+import TopBar from '@/Components/dashboard/TopBar';
+import BottomNav from '@/Components/dashboard/BottomNav';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { base44 } from '@/api/api';
